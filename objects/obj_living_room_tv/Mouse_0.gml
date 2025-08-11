@@ -1,5 +1,5 @@
 
-obj_controller.current_index = 0;
-obj_controller.rooms_list = obj_controller.living_room_rooms
-room_goto(living_room_tv)
-// this is balls ima dip
+//obj_controller.current_index = 0; //
+//obj_controller.rooms_list = obj_controller.living_room_rooms
+//room_goto(obj_controller.living_room_rooms[0]);
+room_goto(living_room_tv);

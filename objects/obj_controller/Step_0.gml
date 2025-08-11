@@ -13,5 +13,7 @@ if (keyboard_check_pressed(vk_left)) {
     }
 }
 
-
+//if (input_delay > 0) {
+//    input_delay -=1;
+//}
 

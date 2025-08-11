@@ -36,5 +36,5 @@
     "path":"sprites/Spr_zone_tuna/Spr_zone_tuna.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -6,3 +6,7 @@ kitchen_rooms = [kitchen, table]
 current_area = 0;
 current_index = 0;
 rooms_list = rooms_rooms;
+input_delay = 0.5;
+
+global.hotspot_lock = false;
+
