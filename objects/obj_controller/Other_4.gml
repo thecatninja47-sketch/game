@@ -20,4 +20,9 @@ for (var i = 0; i < array_length(rooms_list); i++) {
     }
 }
 
+
+
+// Room Start Event of obj_controller
+
+
 //input_delay = 1000; // ~1/6 of a second at 60 FPS

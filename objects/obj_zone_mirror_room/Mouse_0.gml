@@ -8,3 +8,10 @@ if (!global.hotspot_lock) {
     change_delay = 0.5;
     target_room  = room_mirrorr; // or whatever room
 }
+
+if (!global.hotspot_lock) {
+    global.hotspot_lock = true; // prevent multiple triggers
+
+    // go to the desired room
+    room_goto(room_mirrorr);
+}

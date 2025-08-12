@@ -12,11 +12,11 @@ if (!global.hotspot_lock) {
     target_room  = living_room_tv; // or whatever room
 }
 
+
 if (!global.hotspot_lock) {
-    show_debug_message("Hotspot Click: TV Room");
-    global.hotspot_lock = true;
-    change_delay = 0.5;
-    target_room  = living_room_tv;
-} else {
-    show_debug_message("Hotspot Click Ignored - Locked");
+    global.hotspot_lock = true; // prevent multiple triggers
+
+    // go to the desired room
+    room_goto(living_room_tv);
 }
+

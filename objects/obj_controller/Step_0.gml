@@ -13,6 +13,10 @@ if (keyboard_check_pressed(vk_left)) {
     }
 }
 
+if (!mouse_check_button(mb_left)) {
+    global.hotspot_lock = false;
+}
+
 //if (input_delay > 0) {
 //    input_delay -=1;
 //}

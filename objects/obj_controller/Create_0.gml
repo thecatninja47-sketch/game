@@ -10,3 +10,4 @@ input_delay = 0.5;
 
 global.hotspot_lock = false;
 
+ready_for_click = false; // block click until mouse is released
