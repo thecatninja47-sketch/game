@@ -86,6 +86,7 @@
     {"id":{"name":"spr_living_bookshelf","path":"sprites/spr_living_bookshelf/spr_living_bookshelf.yy",},},
     {"id":{"name":"spr_living_tv","path":"sprites/spr_living_tv/spr_living_tv.yy",},},
     {"id":{"name":"spr_mirror","path":"sprites/spr_mirror/spr_mirror.yy",},},
+    {"id":{"name":"spr_oldtext","path":"sprites/spr_oldtext/spr_oldtext.yy",},},
     {"id":{"name":"spr_photo_closeup","path":"sprites/spr_photo_closeup/spr_photo_closeup.yy",},},
     {"id":{"name":"spr_rest","path":"sprites/spr_rest/spr_rest.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},

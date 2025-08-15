@@ -2,23 +2,28 @@
 //costomize
 
 //input
-confirm_key = vk_space; //next page
+confirm_key = vk_enter; //next page
+max_input_delay = 10; //# of frames to ignore input 
+input_delay = max_input_delay;
 
-margin = 16
-padding = 8
-width = display_get_gui_width() - margin * 2;
+
+//pos
+margin = 20;
+paddingy = 60; // this is the padding for the text 
+paddingx = 70; // use paddingx or paddingy and they will do stuff 
+width = display_get_gui_width() - margin * 8;
 height = sprite_height;
 
 x = (display_get_gui_width() - width) / 2;
-y = (display_get_gui_height() - height - margin)
+y = display_get_gui_height() - height - margin;
 
 //text
 text_font = fnt_text;
-text_color = c_white
+text_color = c_teal
 text_speed = 0.6;
-text_x = padding;
-text_y = padding;
-text_width = width - padding * 2;
+text_x = paddingx;
+text_y = paddingy;
+text_width = width - paddingy * 2;
 
 //dont edit 
 

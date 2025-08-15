@@ -14,16 +14,16 @@ function type(x, y, text, progress, width){
 	var draw_x = 0;
 	var draw_y = 0;
 	
-	for (var i =1; i <= progress; i++){
+	for (var i = 1; i <= progress; i++) {
 		var char = string_char_at(text, i);
 		
 		// handle normal line breaks
 		if (char == "\n"){
 			draw_x = 0;
-			draw_y += string_height(char);
+			draw_y += string_height("A");
 		}
 		//if starting new world, line break 
-		else if (char == " "){
+		else if (char == " ") {
 			draw_x += string_width(char);
 			
 			var word_width = 0;
@@ -44,10 +44,10 @@ function type(x, y, text, progress, width){
 				}
 			}
 		}
-				
-		
-		//draw letter
-		draw_text(x + draw_x, y + draw_y, char);
-		draw_x += string_width(char);
+		else {		
+			//draw letter
+			draw_text(x + draw_x, y + draw_y, char);
+			draw_x += string_width(char);
+		}
 	}
 }

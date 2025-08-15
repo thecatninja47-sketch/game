@@ -1,0 +1,1 @@
+startDialogue("tuna_di");
